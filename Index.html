@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="CSS/Style_Main.css">
+    <link rel="stylesheet" href="CSS/Responsive.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <header class="center">
+        <nav>
+        <ul>
+            <span id="title">Tienda Virtual Max</span>
+            <i class="fas fa-bars" id="btn"></i>
+            <li class="responsive"><i class="fas fa-home"></i><a href="#">Hogar</a></li>
+            <li class="responsive"><i class="fas fa-users"></i><a href="#">Nosotros</a></li>
+            <li class="responsive"><i class="fas fa-star"></i><a href="#">Destacados</a></li>
+            <li class="responsive"><button onclick="Seach()"><i class="fas fa-search"></i></button></i>
+                <form class="display" id="search">
+                    <input type="search" name="search">
+                </form>
+            </li>
+        </ul>
+        </nav>
+    </header>
+
+    <div id="salto"></div>
+
+    <main class="center_text">
+        Bienvenidos a la web donde podras comprar productos echos a base de lana.
+
+        <section>
+            Podras apreciar la variedad de producto que tenemos en nuestra tienda virtual
+            y los precios econiomicos nos hacen reconoicidos a nivel Cusco.
+            Puedes echar un vistazo a nuestra variedad de productos
+            <br>
+            Si eres mi profesora de EPT este es mi plantilla, tendras mas detalles en la seccion
+            <strong>Nosotros</strong>.
+        </section>
+    </main>
+
+    <div id="salto"></div>
+
+    <section class="gallery">
+        <article class="card">
+            <img src="IMG/scarf.jpg" alt="Chalina">
+            <span class="da-text">
+                Chalina echa con lana de llama Cusqueña color 
+            </span>
+        </article>
+
+        <article class="card">
+            <img src="IMG/wool.jpg" alt="Lana">
+            <span class="da-text">
+                Lana de llama 
+            </span>
+        </article>
+
+        <article class="card">
+            <img src="IMG/wool sweaters.jpg" alt="Chompa de lana">
+            <span class="da-text">
+                Chompa de lana para mujeres
+            </span>
+        </article>
+
+        <article class="card">
+            <img src="IMG/Chochet.jpg" alt="Set de crochet">
+            <span class="da-text">
+                Set de crochetes para tejer
+            </span>
+        </article>
+    </section>
+
+    <script src="JS/Main.js"></script>
+</body>
+</html>

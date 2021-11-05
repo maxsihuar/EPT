@@ -1,0 +1,51 @@
+@media screen and (max-width: 770px){
+        .fa-bars{
+            display: block;
+            margin-left: 50%;
+            padding-top: 6%;
+        }
+
+        span#title{
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding: 0;
+        }
+        li.responsive{
+            display: none;
+        }
+        li{
+            float: none;
+            margin-top: 1rem;
+        }
+        form{
+            float: right;
+            margin-right: 74%;
+            width: 9rem;
+        }
+        input{
+            margin: 0;
+        }
+}
+
+@media screen and (max-width:430px) {
+    form{
+        float: right;
+        margin-right: 50%;
+        width: 9rem;
+    }
+}
+@media screen and (max-width:380px) {
+    form{
+        float: right;
+        margin-right: 39%;
+        width: 9rem;
+    }
+}
+@media screen and (max-width:320px) {
+    form{
+        float: right;
+        margin-right: 28%;
+        width: 9rem;
+    }
+}
