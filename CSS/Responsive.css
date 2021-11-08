@@ -1,8 +1,10 @@
-@media screen and (max-width: 770px){
+@media screen and (max-width: 800px){
+
         .fa-bars{
             display: block;
-            margin-left: 50%;
-            padding-top: 6%;
+            width: 50%;
+            height: 50%;
+            margin-left: 48%;
         }
 
         span#title{
@@ -19,33 +21,10 @@
             margin-top: 1rem;
         }
         form{
-            float: right;
-            margin-right: 74%;
-            width: 9rem;
+            float: none;
+            width: 80%;
         }
         input{
             margin: 0;
         }
-}
-
-@media screen and (max-width:430px) {
-    form{
-        float: right;
-        margin-right: 50%;
-        width: 9rem;
-    }
-}
-@media screen and (max-width:380px) {
-    form{
-        float: right;
-        margin-right: 39%;
-        width: 9rem;
-    }
-}
-@media screen and (max-width:320px) {
-    form{
-        float: right;
-        margin-right: 28%;
-        width: 9rem;
-    }
 }

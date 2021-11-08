@@ -21,6 +21,7 @@ header{
 }
 .fa-bars{
     display: none;
+    font-size: 1.4rem;
 }
 
 li{
@@ -38,19 +39,19 @@ button{
 
 a{
     text-decoration: none;
+    color: #000;
 }
 
 form.display{
     display: none;
 }
 form{
-    margin-right: 10px;
     float: right;
 }
 input{
     border:none;
     margin-left: 20px;
-    width: 100%;
+    width: 80%;
     height: 17px;
 }
 

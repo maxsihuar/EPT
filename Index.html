@@ -16,12 +16,12 @@
         <ul>
             <span id="title">Tienda Virtual Max</span>
             <i class="fas fa-bars" id="btn"></i>
-            <li class="responsive"><i class="fas fa-home"></i><a href="#">Hogar</a></li>
-            <li class="responsive"><i class="fas fa-users"></i><a href="#">Nosotros</a></li>
+            <li class="responsive"><i class="fas fa-home"></i><a href="index.html">Hogar</a></li>
+            <li class="responsive"><i class="fas fa-users"></i><a href="nosotros.html">Nosotros</a></li>
             <li class="responsive"><i class="fas fa-star"></i><a href="#">Destacados</a></li>
             <li class="responsive"><button onclick="Seach()"><i class="fas fa-search"></i></button></i>
                 <form class="display" id="search">
-                    <input type="search" name="search">
+                    <input id="searcher" type="text"  onkeydown="onKeyDow(event);" placeholder="Busca algo">
                 </form>
             </li>
         </ul>
@@ -47,28 +47,28 @@
 
     <section class="gallery">
         <article class="card">
-            <img src="IMG/scarf.jpg" alt="Chalina">
+            <img loading="lazy" src="IMG/scarf.jpg" alt="Chalina">
             <span class="da-text">
                 Chalina echa con lana de llama Cusqueña color 
             </span>
         </article>
 
         <article class="card">
-            <img src="IMG/wool.jpg" alt="Lana">
+            <img loading="lazy" src="IMG/wool.jpg" alt="Lana">
             <span class="da-text">
                 Lana de llama 
             </span>
         </article>
 
         <article class="card">
-            <img src="IMG/wool sweaters.jpg" alt="Chompa de lana">
+            <img loading="lazy" src="IMG/wool sweaters.jpg" alt="Chompa de lana">
             <span class="da-text">
                 Chompa de lana para mujeres
             </span>
         </article>
 
         <article class="card">
-            <img src="IMG/Chochet.jpg" alt="Set de crochet">
+            <img loading="lazy" src="IMG/Chochet.jpg" alt="Set de crochet">
             <span class="da-text">
                 Set de crochetes para tejer
             </span>
