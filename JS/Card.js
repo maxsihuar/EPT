@@ -16,4 +16,5 @@ function Property(){
 
     document.querySelector("title").innerText = localStorage.getItem("Proper");
     document.querySelector("img").src = localStorage.getItem("Imagen");
+    document.querySelector(".des").innerHTML = localStorage.getItem("Proper");
 }
