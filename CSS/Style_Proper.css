@@ -1,0 +1,12 @@
+main.buy{
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 31rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+}
+
+
+img{
+    width: 35%;
+    height: 40%;
+}

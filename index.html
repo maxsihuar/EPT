@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="CSS/Responsive.css">
     <title>Inicio</title>
 </head>
-<body>
+<body onload="Main()">
     <header class="center">
         <nav>
         <ul>
@@ -45,11 +45,11 @@
 
     <div id="salto"></div>
 
-    <section class="gallery">
+    <section class="gallery" id="container">
         <article class="card">
             <img loading="lazy" src="IMG/scarf.jpg" alt="Chalina">
             <span class="da-text">
-                Chalina echa con lana de llama Cusqueña color 
+                Chalina echa con lana de llama Cusqueña
             </span>
         </article>
 
@@ -63,7 +63,7 @@
         <article class="card">
             <img loading="lazy" src="IMG/wool sweaters.jpg" alt="Chompa de lana">
             <span class="da-text">
-                Chompa de lana para mujeres
+                Saco de lana para mujeres
             </span>
         </article>
 
@@ -73,8 +73,30 @@
                 Set de crochetes para tejer
             </span>
         </article>
+
+        <article class="card">
+            <img loading="lazy" src="IMG/wool gloves.jpg" alt="Guantes de lana">
+            <span class="da-text">
+                Guantes blancos de lana
+            </span>
+        </article>
+
+        <article class="card">
+            <img loading="lazy" src="IMG/wool cap.jpg" alt="Gorro de lana">
+            <span class="da-text">
+                Gorro de lana
+            </span>
+        </article>
+
+        <article class="card">
+            <img loading="lazy" src="IMG/wool scarves.jpg" alt="Chalinas de lana">
+            <span class="da-text">
+                Set de chalinas de lana
+            </span>
+        </article>
     </section>
 
     <script src="JS/Main.js"></script>
+    <script src="JS/Card.js"></script>
 </body>
 </html>
