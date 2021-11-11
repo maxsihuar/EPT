@@ -20,3 +20,16 @@ div{
 span.des{
     text-align: center;
 }
+.load{
+    cursor: pointer;
+}
+.fa-shopping-cart{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.display{
+    display: none;
+}
+span{
+    display: block;
+}
