@@ -48,3 +48,11 @@ function onKeyDow(event){
     window.location.href = "https://www.google.com/search?q=" + Submit.value;
   };
 }
+
+
+document.querySelectorAll("aside li a").forEach((ele) =>{
+	ele.addEventListener("click", ()=>{
+		document.querySelector("aside .selec").classList.remove("selec");
+		ele.parentElement.classList.add("selec");
+	})
+})

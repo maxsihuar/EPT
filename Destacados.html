@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="CSS/Style_Main.css">
+    <link rel="stylesheet" href="CSS/Responsive.css">
+    <link rel="stylesheet" href="CSS/Des.css">
+    <link rel="shortcut icon" href="IMG/tienda.ico" type="image/x-icon">
+    <title>Destacados</title>
+</head>
+<body>
+    <header class="center" id="Inicio">
+        <nav>
+        <ul>
+            <span id="title">Tienda Virtual H</span>
+            <i class="fas fa-bars" id="btn"></i>
+            <li class="responsive"><i class="fas fa-home"></i><a href="index.html">Hogar</a></li>
+            <li class="responsive"><i class="fas fa-users"></i><a href="nosotros.html">Nosotros</a></li>
+            <li class="responsive"><i class="fas fa-star"></i><a href="Destacados.html">Destacados</a></li>
+            <li class="responsive">
+                <button class="switch" id="switch">
+					<span><i class="fas fa-sun"></i></span>
+					<span><i class="fas fa-moon"></i></span>
+				</button>
+            </li>
+            <li class="responsive"><button onclick="Seach()"><i class="fas fa-search"></i></button></i>
+                <form class="display" id="search">
+                    <input id="searcher" type="text"  onkeydown="onKeyDow(event);" placeholder="Busca algo">
+                </form>
+            </li>
+        </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <aside>
+            <div class="index">
+            <ul>
+                <li class="selec"><a href="#Inicio">Inicio</a></li>
+                <li><a href="#Semillas">Semillas</a></li>
+                <li><a href="#Tuberculos">Tuberculos</a></li>
+                <li><a href="#Carnes">Carnes</a></li>
+            </ul>
+        </div>
+        </aside>
+
+
+        <div class="container_section">
+            <section id="Semillas">
+                <h2 class="center_text">Semillas</h2>
+                <article>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, aspernatur? Vitae a dolorum asperiores, doloribus incidunt sint quisquam at explicabo natus nulla cum magnam nisi inventore hic ducimus, quod sed!
+                </article>
+            </section>
+        
+            <section id="Tuberculos">
+                <h2 class="center_text">Tuberculos</h2>
+                <article>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi consequuntur, magni nam deleniti mollitia facilis illo maiores quae nulla architecto excepturi voluptas animi reiciendis recusandae quod dicta rerum maxime sapiente.
+                </article>
+            </section>
+        
+            <section id="Carnes">
+                <h2 class="center_text">Carnes</h2>
+                <article>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus quis tempore fugit inventore, architecto temporibus consequatur obcaecati magnam alias expedita nesciunt harum aliquam a rerum adipisci nisi accusantium ducimus? Eligendi?
+                </article>
+            </section>
+        </div>
+
+    </div>
+    <script src="JS/Main.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+
+.container{
+    display: grid;
+    grid-template-columns: 30% 50%;
+    position: sticky;
+}
+
+aside{
+    padding: 0 18px;
+}
+div.index{
+    margin-left: 40px;
+    margin-top: 30px;
+    position: sticky;
+    top: 0;
+}
+
+div.index>ul>li{
+    float: none;
+    margin-bottom:9px;
+    position: relative;
+}
+div.index>ul>li::before{
+    content: "";
+    display: block;
+    height: 12px;
+    width: 12px;
+    position: relative;
+    left: -24px;
+    top: 23px;
+    transform: rotate(45deg);
+    border: 2px  solid rgb(158, 250, 38);
+}
+div.index>ul>li.selec::before{
+    content: "";
+    display: block;
+    height: 12px;
+    width: 12px;
+    position: relative;
+    left: -24px;
+    top: 23px;
+    transform: rotate(45deg);
+    border: 2px  solid rgb(158, 250, 38);
+    background-color: rgb(158, 250, 38);
+}
