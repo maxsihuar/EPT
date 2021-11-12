@@ -41,3 +41,7 @@ img{
     height: 80%;
     margin: auto;
 }
+article{
+    font-size: 1.8rem;
+    text-align: center;
+}

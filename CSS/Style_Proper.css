@@ -43,3 +43,6 @@ span{
     margin-left: 25%;
 }
 
+body.dark>main.buy{
+    background-color: rgb(121, 113, 113);
+}

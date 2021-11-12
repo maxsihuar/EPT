@@ -40,3 +40,6 @@ body.dark>main{
 body.dark>section>article.card{
         background-color: rgb(99, 100, 100);
 }
+body.dark>section{
+    color: #fff;
+}
