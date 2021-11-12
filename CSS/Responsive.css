@@ -1,3 +1,5 @@
+
+
 @media screen and (max-width: 800px){
 
         .fa-bars{
@@ -27,4 +29,14 @@
         input{
             margin: 0;
         }
+}
+
+body.dark{
+    background-color: #000;
+}
+body.dark>main{
+    color: #fff;
+}
+body.dark>section>article.card{
+        background-color: rgb(99, 100, 100);
 }

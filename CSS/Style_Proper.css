@@ -1,21 +1,21 @@
 main.buy{
     display: grid;
     gap: 1rem;
-    grid-auto-rows: 31rem;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
-    margin: 1.5rem;
+    grid-auto-rows: 39rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
+    margin: 3rem 1.5rem;
     background-color: rgb(238, 224, 224);
 }
 
 
 img{
-    width: 70%;
-    height: 80%;
+    width: 80%;
+    height: 90%;
     margin: auto;
 }
 div{
     text-align: center;
-    margin: auto;
+    margin:  auto;
 }
 span.des{
     text-align: center;
@@ -30,6 +30,16 @@ span.des{
 .display{
     display: none;
 }
+
 span{
     display: block;
+    font-size: 1.4rem;
 }
+
+#pago{
+    display: block;
+    width: 25%;
+    height: 25%;
+    margin-left: 25%;
+}
+
