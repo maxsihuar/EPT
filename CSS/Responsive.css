@@ -8,7 +8,9 @@
             height: 50%;
             margin-left: 48%;
         }
-
+        .container{
+            display: block;
+        }
         span#title{
             display: block;
             width: 100%;
@@ -18,9 +20,16 @@
         li.responsive{
             display: none;
         }
-        li{
+        nav li{
             float: none;
             margin-top: 1rem;
+        }
+        
+        div.container{
+            display: block;
+        }
+        aside{
+            display: none;
         }
         form{
             float: none;
@@ -28,6 +37,10 @@
         }
         input{
             margin: 0;
+        }
+        ul>li{
+            display: block;
+ 
         }
 }
 
@@ -45,6 +58,6 @@ body.dark section>article.card{
         background-color: rgb(78, 78, 78);
 }
 
-body.dark aside a{
+body.dark aside a, body.dark div a{
     color: #fff;
 }
